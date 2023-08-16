@@ -1,0 +1,25 @@
+{
+  "name": "manoranjan-website",
+  "version": "1.0.0",
+  "description": "manoranjan portfolio website",
+  "main": "tailwind.config.js",
+  "dependencies": {
+    "tailwindcss": "^3.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "build": "tailwindcss -i ./src/input.css -o ./src/output.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manoranjan99/manoranjan-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/manoranjan99/manoranjan-website/issues"
+  },
+  "homepage": "https://github.com/manoranjan99/manoranjan-website#readme"
+}
