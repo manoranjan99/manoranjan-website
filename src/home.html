@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+      <title>Photon Insights</title>
+
+      <link rel="stylesheet" href="./../dist/output.css">
+
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+     
+      <link rel="icon" href="/favicon.ico"/>
+
+      <meta charset="UTF-8">
+      <meta name="description" content="manoranjan portfolio home page"/>
+      <meta name="keywords" content="manoranjan, manoranjankarnan, portfolio">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    
+  </head>
+
+  <body>
+
+    <header>
+
+      <nav class="bg-white z-50 py-4 w-screen fixed shadow-[0_2px_8px_rgba(0,0,0,0.04)]">
+
+          <div class="flex flex-wrap justify-between px-6 items-center mx-auto max-w-screen-2xl py-2 lg:px-[112px]">
+
+              <div class="hidden mx-auto justify-between items-center w-full lg:flex lg:w-auto lg:order-1" >
+
+                  <ul class="flex flex-col mt-4 font-medium lg:flex-row lg:space-x-8 lg:mt-0">
+
+                      <li>
+                          <a href="./home.html" class="block font-normal text-sm text-black rounded-full bg-[#F2F2FB] px-[14px] py-[3px] lg:text-[16px]">Home</a>
+                      </li>
+
+                      <li>
+                          <a href="./portfolio.html"  class="block font-normal text-sm text-black rounded-full hover:bg-[#F2F2FB] px-[14px] py-[3px] lg:text-[16px]">Portfolio Works</a>
+                      </li>
+
+                      <li>
+                            <a href="./about.html" class="block font-normal text-sm text-black rounded-full hover:bg-[#F2F2FB] px-[14px] py-[3px] lg:text-[16px]">About</a>
+                      </li>
+
+                  </ul>
+
+              </div>
+    
+              <div class="flex items-center lg:order-2">
+
+                <button onclick="open_mobile_menu()" type="button" class="inline-flex items-center  p-2 ml-1 text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200" aria-controls="mobile-menu-2" aria-expanded="false">
+                  <span class="sr-only">Open main menu</span>
+                  <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+                  <svg class="hidden w-6 h-6" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                </button>
+
+              </div>
+
+          </div>
+      </nav>
+
+      <section id="Mobile_ContextMenu" class="hidden bg-white z-10 fixed w-screen mt-16 ">
+
+        <div class="border-solid shadow-lg border-black p-6 lg:hidden  w-full" >
+  
+          <ul class="flex flex-col mt-4 font-medium space-y-2">
+              <li>
+                  <a href="./home.html" class="block font-semibold  text-sm text-black rounded-full hover:bg-[#F2F2FB]  px-[14px] py-[3px] lg:text-[16px]">Home</a>
+              </li>
+  
+              <li>
+                  <a href="./portfolio.html" class="block font-semibold  text-sm text-black rounded-full hover:bg-[#F2F2FB] px-[14px] py-[3px] lg:text-[16px]">About Us</a>
+              </li>
+          
+              <li>
+                  <a href="./about.html" class="block font-semibold text-sm text-black rounded-full hover:bg-[#F2F2FB] px-[14px] py-[3px] lg:text-[16px]">Contact</a>
+              </li>
+          </ul>
+  
+        </div>
+  
+      </section>
+    
+    </header>
+
+    <main class="w-full pt-10 lg:mx-auto">
+
+      <!--Hero Block-->
+      <section class="mx-auto">
+
+        <div class="grid lg:grid-cols-12 lg:gap-20 xl:gap-0 pt-40 lg:py-10 py-8 sm:px-10 mx-auto lg:px-[112px] max-w-screen-2xl">
+
+            <div class="text-center lg:text-left place-self-center px-8 lg:px-0 lg:pr-10 lg:col-span-7">
+
+              <div>
+
+                <div class="font-semibold text-[#5F5E5E] text-[32px]">Hi, I am</div>
+                <div class="text-4xl font-bold tracking-tight leading-normal sm:text-6xl"><span class=" bg-clip-text bg-gradient-to-r from-[#24A2E9] to-[#4AB4C2] text-transparent font-bold ">Manoranjan Karnan</span></div>
+                <p class="mt-[16px] text-lg leading-8">Software Engineer in Frontend</p>
+
+                <div class="mt-5 justify-center items-center lg:justify-start lg:items-start flex gap-x-6">
+                  <a href="./portfolio.html" class="rounded-full text-[10px] border-[#41AFCC] border-solid border-2 px-4 py-2 sm:text-sm font-semibold text-[#41AFCC] bg-white shadow-lg shadow-white hover:shadow-gray-400 hover:bg-gray-50 ">Go to Portfolio</a>
+                </div>
+
+              </div>
+           
+            </div>
+
+            <div class="hidden justify-center  items-center lg:col-span-5 lg:flex">
+             <img src="./images/hero/hero6.png" height="700" width="700"  alt="photon hero image">
+            </div>    
+
+        </div>
+
+        <div class="w-2/3 mb-5  lg:mt-0 justify-center items-center  mx-auto lg:hidden">
+          <img src="./images/hero/hero6.png" height="700" width="700"  alt="photon hero image">
+        </div> 
+
+      </section>
+
+      <!--Education-->
+      <section class="bg-[#F7FAFC] lg:px-[112px] px-10 py-[100px]">
+
+        <section class="max-w-screen-2xl mx-auto">
+
+          <div class="font-semibold text-[32px]">Education</div>
+          <div class="font-normal mt-5 text-[32px]">National Institute of Technology, Tiruchirappalli</div>
+          <div class="font-normal leading-normal text-[20px]">B. Tech Major in Instrumentation and Control Engineering</div>
+          <div class="font-normal leading-normal text-[20px]">Minor in Computer Science and Engineering</div>
+          <p class="mt-5"><span class="font-semibold">Relevant courses and experience:</span> Data Structure and Algorithms, Operating Systems, Data Communication Network, Neural Network, Cloud Computing, Database and Management, Microprocessors and Microcontrollers, Control Systems, Digital Electronics, Sensors.</p>
+          <!-- <p class="mt-5"><span class="font-semibold">Final Year Project: Gas Monitoring and Fire Control using Realtime Operating System</span><br>A hard real-time system for fire suppression and gas control is proposed on a reduced scale to improve the performance of the time response of these systems implemented in buildings and industries using a Real-time Operating System.</p> -->
+
+          <div class="mt-5 font-semibold underline">Club activities and Societies</div>
+
+          <div class="mt-5 font-semibold">Graphique - Graphic designing club</div>
+          <p>An art club, working on different graphic design tools such as illustrator, photoshop, after effects to
+          make promotional posters, graphic assets needed for college cultural and technical fests. Also, club
+          work includes designs for app and web interfaces.</p>
+
+          <div class="mt-5 font-semibold">SENSORS - National Level Technical Symposium</div>
+          <p>A team of 12 members working together to bring up the knowledge about automation and instrumentation
+          to participants by conducting various technical events and workshops on behalf of the department.</p>
+
+          <div class="mt-5 font-semibold">Office of International Relations, NITT</div>
+          <p>The Office of International Relations of NIT Trichy is a global academic community, providing information
+          to students and faculty on international mobility opportunities and for preparing, evaluating
+          agreements with international partner universities.</p>
+
+        </section>
+
+      </section>
+
+       <!--Work Experience-->
+      <section class="bg-cover bg-no-repeat bg-center xl:bg-[url('images/assets/home-bg-2.svg')] px-10 py-[100px] lg:px-0">
+
+        <section class="max-w-screen-2xl lg:px-[112px] mx-auto">
+
+          <div class="font-semibold text-[32px]">Work Experience</div>
+
+          <div class="font-normal mt-5 text-[28px]">Photon Insights<span class="text-[18px]"> - Full time</span></div>
+          <div class="font-semibold leading-normal">Founding Software Engineer - Frontend and Designer. &#x2022; <span class="font-normal text-[14px]">Jun 2022 - Present</span> </div>
+          <p class="mt-2">Founding Software Engineer,  conceptualized, designed, and developed our initial products, report templates, and the company website from scratch using Angular, TypeScript, and Bootstrap.
+          In the second phase, assisted with senior engineer created a new company website using Tailwind CSS and JavaScript. Also worked on internal tools for admin use.</p>
+
+          <div class="font-normal mt-5 text-[28px]">Airbus<span class="text-[18px]"> - Internship</span></div>
+          <div class="font-semibold leading-normal">SDE Intern (Full Stack Developer) &#x2022; <span class="font-normal text-[14px]">Jun 2021 - Dec 2021</span> </div>
+          <p class="mt-2">Agile environment - SCRUM<br>
+          Team: Identity Access Management (IAM Self Service team)<br>
+          A full-stack development team worked on Frontend using Angular framework - adding web pages, fixing UI Issues, and testing them.</p>
+
+          <div class="font-normal mt-5 text-[28px]">Trawello Healthcare<span class="text-[18px]"> - Internship</span></div>
+          <div class="font-semibold leading-normal">Application developer, designer &#x2022; <span class="font-normal text-[14px]">Mar 2020 - Jul 2020</span></div>
+          <p class="mt-2">-Added additional features, adding user's pictures from the database, adding app notification, and improving user interfaces.<br>
+          -Worked and ideated on their new product HealthyCampus, also worked on motion graphics for a promotional video.<br>
+          -The latter stage of work includes complete app testing, debugging, and documentation.</p>
+
+          <div class="font-normal mt-5 text-[28px]">Trawello Healthcare<span class="text-[18px]"> - Internship</span></div>
+          <div class="font-semibold leading-normal">Application developer &#x2022; <span class="font-normal text-[14px]">Dec 2019 - Jan 2020</span> </div>
+          <p class="mt-2">-Added additional features, adding user's pictures from the database, adding app notification, and improving user interfaces.<br>
+          -Worked and ideated on their new product HealthyCampus, also worked on motion graphics for a promotional video.<br>
+          -The latter stage of work includes complete app testing, debugging, and documentation.</p>
+         
+
+        </section>
+
+      </section>
+      
+    </main> 
+
+
+    <footer class="px-4 bg-[#eceff1] max-w-screen-2xl mx-auto sm:px-6 ">
+
+      <div class="px-4 sm:px-[100px] pt-[40px] pb-[80px]">
+
+        <div class="lg:flex  lg:justify-between">
+
+          <div class="mb-6 mx-auto lg:mb-0">
+             
+              <div class="mt-[26px] font-[600px] text-[16px] leading-[24px]">2023 - Manoranjan Portfolio.</div>
+
+              <div class="flex mx-auto items-center mt-6">
+                <div class="mx-auto flex">
+                  <a target="_blank" href="https://www.facebook.com/mano.ranjan.360/"><img class="mr-5" src="./images/facebook.svg"></a>
+                  <a target="_blank" href="https://www.linkedin.com/in/manoranjan-karnan99/"><img src="./images/linkedin.svg"></a>
+                </div>
+              </div>
+              
+          </div>
+
+        </div>
+        
+      </div>
+    
+      
+    </footer>
+
+
+  </body>
+
+</html>
