@@ -647,6 +647,10 @@ html {
   margin-top: 26px;
 }
 
+.ml-2{
+  margin-left: 0.5rem;
+}
+
 .block{
   display: block;
 }
